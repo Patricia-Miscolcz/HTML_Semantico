@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML SEMÂNTICO</title>
+    <link rel="stylesheet" href="./semântico.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <h1>Aprendendo HTML Semântico</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+                <li>
+                    <a href="#">Benefícios</a>
+                </li>
+                <li>
+                    <a href="#">Conteúdo Principal</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Conteúdo Principal-->
+    <main id="main-content">
+
+        <!--áreas por seções-->
+        <section>
+            <h2>O que é HTML Semântico?</h2>
+            <p>HTML semântico é o uso de tags (elementos) do HTML que têm significado claro sobre o conteúdo que elas envolvem. Em vez de apenas organizar o conteúdo visualmente, o HTML semântico descreve o papel de cada parte da página — tanto para navegadores quanto para pessoas e tecnologias assistivas (como leitores de tela).</p>
+        </section>
+
+        <!--article-->
+        <article id="benefits">
+            <h2>Benefícios do HTML Semântico</h2>
+            <p>O HTML semântico traz vários benefícios. Ele melhora a acessibilidade, permitindo que tecnologias assistivas interpretem melhor o conteúdo. Também ajuda no SEO, já que os motores de busca entendem mais facilmente a estrutura da página. Além disso, deixa o código mais claro e organizado, facilitando a aplicação de estilos e a manutenção. Com uma estrutura mais lógica, a navegação e a experiência do usuário também se tornam mais agradáveis.</p>
+            <a href="https://www.godaddy.com/resources/br/artigos/html-semantico" target="_blank">Leia o conteúdo</a>
+        </article>
+
+        <section>
+            <h3>Exemplos de HTML Semântico</h3>
+            <li> header - indica que aquele bloco é o cabeçalho.</li>
+            <li>nav - mostra que ali há links de navegação.</li>
+            <li>main - identifica o conteúdo principal da página.</li>
+            <li>footer - define o rodapé.</li>
+            <li>article - usada para conteúdos independentes, que fazem sentido sozinhos, como notícias, posts de blog ou comentários. Ele indica que o conteúdo pode ser reutilizado fora da página sem perder o significado.</li>
+            <li>aside - usada para conteúdo complementar, como uma barra lateral ou links relacionados, que não faz parte do conteúdo principal da página.</li>
+        </section>
+
+        <!--aside-->
+        <aside id="extra">
+            <h4>Curiosidade</h4>
+            <p>HTML semântico não só melhora a estrutura e organização do código, mas também traz benefícios significativos para SEO e acessibilidade. Desde a introdução do HTML5, tags como header, footer e article permitem que os navegadores e motores de busca compreendam melhor o conteúdo, o que resulta em uma navegação mais eficiente e indexação aprimorada. Além disso, torna a web mais acessível, ajudando usuários com deficiências a interagir de forma mais fácil com o conteúdo.</p>
+        </aside>
+
+        <!--figure-->
+        <figure>
+            <img src="https://www.brasilcode.com.br/wp-content/uploads/2024/11/html-semantico-1.jpeg" alt="">
+            <figcaption>HTML Semântico X HTML NÃO Semântico</figcaption>
+        </figure>
+
+        <!--details (FAQ)-->
+        <details>
+            <summary>Você sabe como melhorar a acessibilidade do seu site?</summary>
+            <p>Sim, melhorar a acessibilidade do seu site é essencial para garantir que todos os usuários, independentemente de suas habilidades ou deficiências, possam navegar e interagir com o conteúdo de maneira eficaz.</p>
+        </details>
+
+        </main>
+
+        <footer id="conclusion">
+            <p>produzido por Patricia Miscolcz</p>
+            <p>&copy;2025</p>
+        </footer>
+    
+</body>
+</html>
